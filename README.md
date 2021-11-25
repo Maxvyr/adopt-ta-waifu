@@ -39,9 +39,9 @@ npm run dev
 
 - If you want to help for add new API or other, you are welcome ;)
 
-## Crypto Tips(ETH)
+## Crypto Tips
 
-![https://i.imgur.com/XpF2vgw.png](https://i.imgur.com/XpF2vgw.png)
+![https://i.imgur.com/4bS8l7R.png](https://i.imgur.com/4bS8l7R.png)
 
 ## Contact Me
 
