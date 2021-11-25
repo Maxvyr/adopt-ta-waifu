@@ -10,12 +10,12 @@ const Home: NextPage = () => {
       <Head>
         <title>Adopt Ta Waifu</title>
         <meta name="Adopt Ta Waifu" content="Adopt Ta Waifu, searhc and find your best waifu or husbando" />
-        <link rel="icon" href="/img/chibi_waifu.jpeg" />
+        <link rel="icon" href="/chibi_waifu.jpeg" />
       </Head>
 
       <main className={styles.main}>
         <Image
-          src='/img/zero_two_sky.jpeg'
+          src='/zero_two_sky.jpeg'
           alt="zero two night view"
           height={500}
           width={1000}
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <p className={styles.description}>
           <Image
           className={styles.logo}
-          src='/img/chibi_waifu2.png'
+          src='/chibi_waifu2.png'
           alt="chibi waifu"
           height={120}
           width={120}
