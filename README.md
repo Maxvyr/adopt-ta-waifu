@@ -1,6 +1,5 @@
 # ADOPT TA WAIFU WEB APP
 
-
 <a href="https://gitmoji.dev">
   <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
 </a>
@@ -25,15 +24,11 @@ npm run dev
 
 ## Lib Use
 
-
-### Next version:
-
-
+### Next version
 
 ## API
 
 - [Waifu Pic](https://waifu.pics/docs)
-
 
 ## Pull Request
 
