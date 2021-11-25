@@ -11,12 +11,19 @@ const Husbando : NextPage = () => {
             <Head>
                 <title>Husbando</title>
                 <meta name="husbando pages" content="show husbando selected" />
-                <link rel="icon" href="/favicon.ico" />
             </Head>
-            <h1>HUSBANDO</h1>
             <Link href="/">
                 <a>Retour a l acceuil</a>
             </Link>
+            <main className={styles.center}>
+                <h1>HUSBANDO</h1>
+                <Image
+                    src='/place_holder.jpeg'
+                    alt="Image place holder"
+                    height={520}
+                    width={520}
+                />
+            </main>
         </>
     );
 };
