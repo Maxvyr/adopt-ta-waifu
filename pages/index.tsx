@@ -5,6 +5,18 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
+
+  const callAPI = () =>  {
+      fetch('https://api.waifu.pics/sfw/waifu')
+      .then(response => response.json())
+      .then(data => {
+        console.log(`En cours ${data.url}`)
+        return data
+      })
+      .catch(err => console.error(err));
+  }
+
+  console.log(`final ${callAPI()}`);
   return (
     <div className={styles.container}>
       <Head>
