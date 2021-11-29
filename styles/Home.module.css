@@ -35,6 +35,37 @@
   flex-grow: 1;
 }
 
+.column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.imageWaifu {
+  border-radius: 10%;
+}
+
+.imageWaifu:hover {
+  box-shadow:  5px 3px 3px black;
+}
+
+.buttonsWaifu {
+  background-color: aqua;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+.sizedBox{
+  width: 100px;
+  height: 100px;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;

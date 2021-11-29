@@ -33,15 +33,15 @@ const Home = () => {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/waifu">
+          <Link href="/waifu-sfw">
             <a className={styles.card}>
-              <h2>Waifu</h2>
+              <h2>SFW</h2>
             </a>
           </Link>
           
-          <Link href="/husbando">
+          <Link href="/waifu-nsfw">
             <a className={styles.card}>
-              <h2>Husbando</h2>
+              <h2>NSFW</h2>
             </a>
           </Link>
         </div>
