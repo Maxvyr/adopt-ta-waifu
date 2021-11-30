@@ -8,7 +8,7 @@
 
 Show image waifu or husbando and if you like this image you can share it with your friend
 
-web version (under development) : COMING SOON <!-- [link](https://adopt-ta-waifu.web.app/#/) -->
+web version (under development) : [link](https://adopt-ta-waifu.vercel.app/)
 
 ```zsh
 git clone git@github.com:Maxvyr/adopt-ta-waifu.git
