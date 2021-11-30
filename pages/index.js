@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import zeroTwoSky from '../public/zero_two_sky.jpeg'
 
 const Home = () => {
 
@@ -16,10 +17,8 @@ const Home = () => {
 
       <main className={styles.main}>
         <Image
-          src='/zero_two_sky.jpeg'
+          src={zeroTwoSky}
           alt="zero two night view"
-          height={500}
-          width={1000}
         />
 
         <p className={styles.description}>
