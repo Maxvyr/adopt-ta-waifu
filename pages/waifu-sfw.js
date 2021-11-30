@@ -38,12 +38,10 @@ const WaifuSfw = (props) => {
                 <title>Waifu</title>
                 <meta name="waifu sfw" content="show waifu sfw selected" />
             </Head>
-            <h1>WAIFU</h1>
+            <h1 className={styles.title} >SFW</h1>
             <Link href="/">
-                <a>Retour a l acceuil</a>
+                <a className={styles.card}>Acceuil</a>
             </Link>
-            <div className={styles.sizedBox}></div>
-
             <div className={styles.row}>
                 <button 
                     className={styles.card}
@@ -56,7 +54,7 @@ const WaifuSfw = (props) => {
                         src={waifu}
                         alt="random waifu sfw image"
                         width={300}
-                        height={500}
+                        height={650}
                         blurDataURL="/public/placeholder.jpeg"
                         placeholder="blur"
                         />

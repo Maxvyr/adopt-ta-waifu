@@ -51,7 +51,9 @@
   border-radius: 10%;
 }
 
-.imageWaifu:hover {
+.imageWaifu:hover,
+.imageWaifu:focus,
+.imageWaifu:active {
   box-shadow:  5px 3px 3px black;
 }
 
@@ -112,7 +114,7 @@
 
 .card {
   margin: 1rem;
-  padding: 1.5rem;
+  padding: 0.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;

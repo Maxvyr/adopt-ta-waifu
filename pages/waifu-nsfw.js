@@ -40,14 +40,13 @@ const WaifuNsfw = () => {
                 <title>Waifu</title>
                 <meta name="waifu nsfw" content="show waifu nsfw selected" />
             </Head>
-            <h1>WAIFU</h1>
+            <h1 className={styles.title}>NSFW</h1>
             <Link href="/">
-                <a>Retour a l acceuil</a>
+                <a className={styles.card}>Acceuil</a>
             </Link>
-            <div className={styles.sizedBox}></div>
             <div className={styles.row}>
                 <button 
-                    className={styles.card, styles.buttonsWaifu}
+                    className={styles.card}
                     onClick={handleClickNo}>
                         NO
                 </button>
@@ -56,14 +55,14 @@ const WaifuNsfw = () => {
                     className={styles.imageWaifu}
                         src={waifu}
                         alt="random waifu nsfw image"
-                        width={400}
-                        height={600}
+                        width={300}
+                        height={650}
                         blurDataURL="/public/placeholder.jpeg"
                         placeholder="blur"
                         />
                 <div className={styles.sizedBox}></div>
                 <button 
-                    className={styles.card, styles.buttonsWaifu}
+                    className={styles.card}
                     onClick={handleClickYes}>
                         YES
                 </button>
