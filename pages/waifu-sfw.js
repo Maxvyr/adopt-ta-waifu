@@ -22,14 +22,18 @@ const WaifuSfw = (props) => {
         });
      }
 
-     const handleClick = () => {       
+     const handleClickYes = () => {       
          fetchWaifuImg();
+    }
+
+     const handleClickNo = () => {       
+        alert("Coming Soon!!");
     }
 
 
 
     return (
-        <div className={styles.column}>
+        <div className={styles.main, styles.center}>
             <Head>
                 <title>Waifu</title>
                 <meta name="waifu sfw" content="show waifu sfw selected" />
@@ -38,28 +42,30 @@ const WaifuSfw = (props) => {
             <Link href="/">
                 <a>Retour a l acceuil</a>
             </Link>
-                <div className={styles.main}>
+            <div className={styles.sizedBox}></div>
+
             <div className={styles.row}>
                 <button 
-                    className={styles.card, styles.buttonsWaifu}
-                    onClick={handleClick}>
+                    className={styles.card}
+                    onClick={handleClickNo}>
                         NO
                 </button>
                 <div className={styles.sizedBox}></div>
                     <Image
                     className={styles.imageWaifu}
                         src={waifu}
-                        alt="random waifu img"
-                        width={400}
-                        height={600}
+                        alt="random waifu sfw image"
+                        width={300}
+                        height={500}
+                        blurDataURL="/public/placeholder.jpeg"
+                        placeholder="blur"
                         />
                 <div className={styles.sizedBox}></div>
                 <button 
-                    className={styles.card, styles.buttonsWaifu}
-                    onClick={handleClick}>
+                    className={styles.card}
+                    onClick={handleClickYes}>
                         YES
                 </button>
-                </div>
             </div>
         </div>
     );
