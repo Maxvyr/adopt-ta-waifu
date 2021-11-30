@@ -37,8 +37,9 @@ const WaifuNsfw = () => {
     return (
         <div className={styles.main, styles.center}>
             <Head>
-                <title>Waifu</title>
+                <title>Waifu NSFW</title>
                 <meta name="waifu nsfw" content="show waifu nsfw selected" />
+                <link rel="icon" href="/chibi_waifu.jpeg" />
             </Head>
             <h1 className={styles.title}>NSFW</h1>
             <Link href="/">
