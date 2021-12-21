@@ -36,7 +36,7 @@ npm run dev
 
 ## Crypto Tips
 
-![https://i.imgur.com/4bS8l7R.png](https://i.imgur.com/o7CLDbW.png)
+![https://i.imgur.com/wuW30D4.png](https://i.imgur.com/wuW30D4.png)
 
 ## Contact Me
 
