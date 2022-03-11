@@ -34,13 +34,13 @@ const Home = () => {
         <div className={styles.grid}>
           <Link href="/waifu-sfw">
             <a className={styles.card}>
-              <h2>SFW</h2>
+              <h2 className='font-bold'>SFW</h2>
             </a>
           </Link>
           
           <Link href="/waifu-nsfw">
             <a className={styles.card}>
-              <h2>NSFW</h2>
+              <h2 className='font-bold'>NSFW</h2>
             </a>
           </Link>
         </div>
@@ -52,7 +52,9 @@ const Home = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by Maxvyr @2022
+          <div className='underline text-gray-400'>
+            Powered by Maxvyr @2022
+          </div>
         </a>
       </footer>
     </div>

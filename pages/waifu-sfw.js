@@ -45,13 +45,13 @@ const WaifuSfw = (props) => {
             </Link>
             <div className={styles.row}>
                 <button 
-                    className={styles.card}
+                    className={styles.card} 
                     onClick={handleClickNo}>
-                        NO
+                       <div className='py-4 flex flex-col justify-center relative font-bold'>NO</div>
                 </button>
                 <div className={styles.sizedBox}></div>
                     <Image
-                    className={styles.imageWaifu}
+                    className='flex p-10 rounded-xl'
                         src={waifu}
                         alt="random waifu sfw image"
                         width={300}
@@ -63,7 +63,7 @@ const WaifuSfw = (props) => {
                 <button 
                     className={styles.card}
                     onClick={handleClickYes}>
-                        YES
+                        <div className='py-4 flex flex-col justify-center relative font-bold'>YES</div>
                 </button>
             </div>
         </div>
