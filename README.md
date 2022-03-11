@@ -14,6 +14,7 @@ web version (under development) : [link](https://adopt-ta-waifu.vercel.app/)
 git clone git@github.com:Maxvyr/adopt-ta-waifu.git
 
 cd adopt-ta-waifu
+npm install
 npm run dev
 ```
 
