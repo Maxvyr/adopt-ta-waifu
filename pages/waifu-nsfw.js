@@ -41,7 +41,7 @@ const WaifuNsfw = () => {
                 <meta name="waifu nsfw" content="show waifu nsfw selected" />
                 <link rel="icon" href="/chibi_waifu.jpeg" />
             </Head>
-            <h1 className={styles.title}>NSFW</h1>
+            <h1 className=' font-bold text-3xl'>NSFW</h1>
             <Link href="/">
                 <a className={styles.card}>Acceuil</a>
             </Link>
@@ -49,11 +49,11 @@ const WaifuNsfw = () => {
                 <button 
                     className={styles.card}
                     onClick={handleClickNo}>
-                        NO
+                        <div className='py-4 flex flex-col justify-center relative font-bold'>NO</div>
                 </button>
                 <div className={styles.sizedBox}></div>
                     <Image
-                    className={styles.imageWaifu}
+                    className='flex p-10 rounded-xl'
                         src={waifu}
                         alt="random waifu nsfw image"
                         width={300}
@@ -65,7 +65,7 @@ const WaifuNsfw = () => {
                 <button 
                     className={styles.card}
                     onClick={handleClickYes}>
-                        YES
+                        <div className='py-4 flex flex-col justify-center relative font-bold'>YES</div>
                 </button>
             </div>
         </div>
