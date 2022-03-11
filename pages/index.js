@@ -52,7 +52,7 @@ const Home = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by Maxvyr
+          Powered by Maxvyr @2022
         </a>
       </footer>
     </div>
