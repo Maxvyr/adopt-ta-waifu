@@ -41,4 +41,4 @@ npm run dev
 
 ## Contact Me
 
-contact : [pandamydev@gmail.com](mailto:pandamydev@gmail.com)
+contact : [contact@pandamy.xyz](mailto:contact@pandamy.xyz)
