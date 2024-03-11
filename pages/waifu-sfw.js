@@ -7,6 +7,8 @@ import { useEffect, useState } from "react";
 import Loading from "./components/loading";
 
 const WaifuSfw = (props) => {
+  const buttonsStyle =
+    "border rounded-md border-sky-500 hover:border-sky-700 hover:rounded-lg hover:border-2 p-2";
   const [waifu, setWaifu] = useState("");
 
   useEffect(() => {
@@ -39,10 +41,10 @@ const WaifuSfw = (props) => {
       </Head>
       <h1 className=" font-bold text-3xl">SFW</h1>
       <Link href="/">
-        <a className={styles.card}>Acceuil</a>
+        <a className={buttonsStyle}>Acceuil</a>
       </Link>
       <div className={styles.row}>
-        <button className={styles.card} onClick={handleClickNo}>
+        <button className={buttonsStyle} onClick={handleClickNo}>
           <div className="py-4 flex flex-col justify-center relative font-bold">
             NO
           </div>
@@ -61,7 +63,7 @@ const WaifuSfw = (props) => {
         )}
         {waifu === "" && <Loading />}
         <div className={styles.sizedBox}></div>
-        <button className={styles.card} onClick={handleClickYes}>
+        <button className={buttonsStyle} onClick={handleClickYes}>
           <div className="py-4 flex flex-col justify-center relative font-bold">
             YES
           </div>
