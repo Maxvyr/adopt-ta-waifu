@@ -1,6 +1,10 @@
 {
   "name": "adopt-ta-waifu",
   "private": true,
+  "version": "1.5.0",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
