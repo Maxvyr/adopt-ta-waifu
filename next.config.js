@@ -2,6 +2,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['i.waifu.pics'],
+    domains: ["i.waifu.pics"],
   },
-}
+};

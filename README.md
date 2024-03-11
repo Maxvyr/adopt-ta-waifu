@@ -14,18 +14,14 @@ web version (under development) : [link](https://adopt-ta-waifu.vercel.app/)
 git clone git@github.com:Maxvyr/adopt-ta-waifu.git
 
 cd adopt-ta-waifu
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ## Framework
 
 - [NextJS](https://nextjs.org/)
 - [ReactJS](https://reactjs.org/)
-
-## Lib Use
-
-### Next version
 
 ## API
 
@@ -41,4 +37,4 @@ npm run dev
 
 ## Contact Me
 
-contact : [contact@pandamy.xyz](mailto:contact@pandamy.xyz)
+X/Twitter : [maxvidalinc](https://x.com/maxvidalinc)
