@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import zeroTwoSky from "../public/zero_two_sky.jpeg";
-import IconButton from "./components/twitter-button";
+import IconButton from "./components/icon-button";
 
 const Home = () => {
   const classButton =
@@ -61,7 +61,10 @@ const Home = () => {
         >
           <div className="underline text-gray-400">Powered by Maxvyr @2022</div>
         </a>
-        <IconButton url="https://twitter.com/maxvidalinc" />
+        <div>
+          <IconButton url="https://github.com/Maxvyr" />
+          <IconButton url="https://x.com/maxvidalinc" />
+        </div>
       </footer>
     </div>
   );

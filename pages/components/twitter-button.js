@@ -1,15 +1,5 @@
 import React from "react";
 
-const TwitterButton = ({ url }) => {
-  return (
-    <a href={url} target="_blank" rel="noreferrer">
-      <button className="p-2 rounded-full text-blue-500">
-        <TwitterIcon />
-      </button>
-    </a>
-  );
-};
-
 const TwitterIcon = () => {
   return (
     <svg
@@ -28,4 +18,4 @@ const TwitterIcon = () => {
   );
 };
 
-export default TwitterButton;
+export default TwitterIcon;
