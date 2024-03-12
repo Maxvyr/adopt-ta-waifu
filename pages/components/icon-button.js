@@ -2,8 +2,8 @@ const IconButton = ({ url }) => {
   return (
     <a href={url} target="_blank" rel="noreferrer">
       <button className="p-2 rounded-full text-black">
-        {url.includes("github.com") && <GithubIcon />}
-        {url.includes("x.com") && <TwitterIcon />}
+        {url?.includes("github.com") && <GithubIcon />}
+        {url?.includes("x.com") && <TwitterIcon />}
       </button>
     </a>
   );
